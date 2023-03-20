@@ -17,7 +17,6 @@ function Login({ setIsLoggedIn }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-
     setIsLoggedIn(true);
 
     // after logging the user in, redirect to the home page!
